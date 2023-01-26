@@ -1,0 +1,92 @@
+.special{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style:ridge;
+    border-left-width: 10px;
+    border-left-color: silver;
+    border-right-style:double;
+}
+h1{
+  text-shadow: 5px 5px 5px lightblue, 0px -5px 5px red;
+  box-shadow: 5px 5px 5px black;
+}
+img{
+  float: right;
+}
+button{
+  font-size: 20px;
+}
+a:link{
+  color:aquamarine;
+}
+a:visited{
+
+  color:pink;
+}
+a:hover{
+  color:black;
+}
+a:active{
+  color:blue;
+}
+a{
+  font-size: 30px;
+}
+p{
+    background: linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h4{
+    writing-mode: vertical-lr;
+}
+  .px {
+    width: 200px;
+  }
+  
+  .vw {
+    width: 10vw;
+  }
+  
+  .em {
+    width: 10em;
+  }
+#box{
+    border-style:outset;
+    border-width:5px;
+    border-color:gold;
+    color:blue;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #567895;
+}
+h3 {
+    background: linear-gradient(105deg, rgba(0,249,255,1) 39%, rgba(51,56,57,1) 96%)
+  }
+h2{
+    font-family: "press start 2p", "consolas", sans-serif;
+}
+
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 10px solid rebeccapurple;
+    border-radius: 1em;
+    
+  }
+.odd{
+    color: orange;
+    font-weight: bold;
+}
+#p1{
+    color: tomato;
+}
+body{
+    background-image: url("bach.jpg"), url("beaut.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+  
+  
